@@ -45,7 +45,7 @@ const Page = ({params}) => {
         </div>
 
         <div class="w-full md:w-1/2 md:pl-8 mt-4 md:mt-0">
-          <h2 class="text-2xl font-bold mb-2">{data.title}</h2>
+          <h2 class="text-2xl font-bold mb-2 text-white">{data.title}</h2>
           <p class="text-gray-700 mb-2 text-white">{data.description}</p>
           <div class="text-lg font-bold mb-2">
             Price: <span className="text-white">{data.price}$</span>
@@ -54,7 +54,7 @@ const Page = ({params}) => {
             Brand: <span className="text-white">{data.brand}</span>
           </div>
 
-          <div class="flex items-center mb-4">
+          <div class="flex items-center font-bold mb-4">
             Rating: &nbsp;
             <span class="text-yellow-500"> &#9733;</span>
             <span class="text-gray-700 ml-2 text-white">{data.rating}</span>

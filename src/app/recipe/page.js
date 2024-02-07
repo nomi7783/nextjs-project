@@ -53,8 +53,9 @@ export default function Counter() {
                     <p class="leading-relaxed mb-3">
                     {item.description}
                     </p>
-                    <div class="flex items-center flex-wrap text-gray-900 underline">
-                      <Link href={`/recipe/${item.id}`} >
+                    <div class="flex items-center flex-wrap text-gray-900 underline inline-block mt-4 mb-5 bg-white text-blue-500 font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 hover:text-white w-44">
+                      
+                      <Link href={`/recipe/${item.id}`} className="">
                         Click for Details
                       </Link>
                     </div>
