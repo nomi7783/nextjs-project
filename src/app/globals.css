@@ -19,6 +19,12 @@
 body {
     background-color: #3B82F6;
 }
+.nav {
+  justify-content: space-between;
+}
+.menu {
+  gap: 10px;
+}
 
 @layer utilities {
   .text-balance {
