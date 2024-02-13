@@ -17,6 +17,7 @@ const Header = () => {
            
             <Link class="text-gray-300 " href="/">Home </Link>
             <Link class="text-gray-300 " href="/products">Fetch API Data </Link>
+            <Link class="text-gray-300 " href="/crud">CRUD Data</Link>
         </div>
       </div>
       

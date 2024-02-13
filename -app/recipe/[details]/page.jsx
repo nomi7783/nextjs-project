@@ -25,7 +25,7 @@ const Page = ({params}) => {
   return (
     <div class="container mx-auto py-8 px-4 mt-10">
       <Link
-        href={`/products`}
+        href={`/recipe`}
         class="inline-block mt-4 mb-5 bg-white text-blue-500 font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 hover:text-white"
       >
         Back
@@ -46,7 +46,7 @@ const Page = ({params}) => {
 
         <div class="w-full md:w-1/2 md:pl-8 mt-4 md:mt-0">
           <h2 class="text-2xl font-bold mb-2 text-white">{data.title}</h2>
-          <p class=" mb-2 text-white">{data.description}</p>
+          <p class="text-gray-700 mb-2 text-white">{data.description}</p>
           <div class="text-lg font-bold mb-2">
             Price: <span className="text-white">{data.price}$</span>
           </div>
@@ -57,7 +57,7 @@ const Page = ({params}) => {
           <div class="flex items-center font-bold mb-4">
             Rating: &nbsp;
             <span class="text-yellow-500"> &#9733;</span>
-            <span class=" ml-2 text-white">{data.rating}</span>
+            <span class="text-gray-700 ml-2 text-white">{data.rating}</span>
           </div>
 
           <button class="bg-blue-600 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
